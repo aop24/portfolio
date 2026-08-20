@@ -2,8 +2,6 @@
 
 Index of cybersecurity, development, and automation projects. Each entry links to its own repository with code, README, and (where applicable) full technical documentation.
 
-> 🚧 Work in progress — some links point to repos that are still being uploaded.
-
 ---
 
 ## 🔐 Offensive security / cryptography
@@ -13,17 +11,12 @@ Design and implementation of a custom Public Key Infrastructure (PKI) and three 
 
 **Stack:** C, Python, OpenSSL, wolfSSL, TCP/UDP sockets.
 
-### [mastg-writeups](https://github.com/aop24/mastg-writeups)
-Mobile security assessments following the **OWASP MASTG** methodology on public practice applications (InsecureShop, UnCrackable). Includes root detection bypass and encryption hooking with Frida.
+### [mobile-sec-toolkit](https://github.com/aop24/mobile-sec-toolkit)
+Python toolkit for static, MASTG-aligned APK analysis and Frida-based dynamic bypass — automates common checks from the OWASP Mobile Application Security Testing Guide (permissions, hardcoded secrets, insecure storage, root/SSL-pinning bypass scripting).
 
-**Stack:** JADX, Frida, ADB, Burp Suite, Android.
+**Stack:** Python, JADX, Frida, ADB.
 
-### [pentesting-labs](https://github.com/aop24/pentesting-labs)
-Binary exploitation labs (stack canary bypass, ret2libc, NX, PIE, ASLR on 32/64-bit) and memory forensics analysis with Volatility 3 (Meterpreter detection, reflective DLL injection, registry persistence).
-
-**Stack:** Kali Linux, GDB, pwntools, Volatility 3.
-
-### [linpeas-casero](https://github.com/aop24/linpeas-casero)
+### [linpeas](https://github.com/aop24/linpeas)
 Modular Linux post-exploitation enumeration framework built from scratch — not a clone of linPEAS, but a deliberate reimplementation of its most representative checks (SUID/SGID, cron, capabilities, sudo, Docker, kernel CVEs, NFS, LD_PRELOAD) with GTFOBins cross-referencing, severity scoring, and an `--explain` mode documenting the technical reasoning behind each finding.
 
 **Stack:** Bash, GTFOBins.
@@ -37,15 +30,10 @@ Nmap automation tool: port discovery + version detection, then vulnerability mat
 
 ## 💻 Development / own tools
 
-### [aopgasobot](https://github.com/aop24/aopgasobot)
+### [bot-gasolina](https://github.com/aop24/bot-gasolina)
 Telegram bot that tracks fuel prices in real time via Spain's public MINCOTUR API, with MySQL storage, scheduled tasks, and systemd deployment.
 
 **Stack:** Python, python-telegram-bot, MySQL, APScheduler.
-
-### [restaurant-pos](https://github.com/aop24/restaurant-pos)
-LAN-based point-of-sale (POS) system for a restaurant: real-time order, table, and kitchen management.
-
-**Stack:** FastAPI, PostgreSQL, React, Tailwind CSS.
 
 ---
 
@@ -59,8 +47,8 @@ LAN-based point-of-sale (POS) system for a restaurant: real-time order, table, a
 
 ## 🧰 General stack
 
-`C` `Python` `Kotlin` `Bash` `OpenSSL` `wolfSSL` `Frida` `Volatility 3` `FastAPI` `React` `Docker` `Burp Suite` `Metasploit` `Nmap`
+`C` `Python` `Kotlin` `Bash` `OpenSSL` `wolfSSL` `Frida` `Volatility 3` `Docker` `Burp Suite` `Nmap`
 
 ## 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-olivares-perona-516681253/) · [Email](angelolivares305@gmail.com) · [GitHub profile](https://github.com/aop24)
+[LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-olivares-perona-516681253/) · [Email](mailto:angelolivares305@gmail.com) · [GitHub profile](https://github.com/aop24)
