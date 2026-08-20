@@ -63,4 +63,4 @@ LAN-based point-of-sale (POS) system for a restaurant: real-time order, table, a
 
 ## 📫 Contact
 
-[LinkedIn](#) · [Email](#) · [GitHub profile](https://github.com/aop24)
+[LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-olivares-perona-516681253/) · [Email](angelolivares305@gmail.com) · [GitHub profile](https://github.com/aop24)
