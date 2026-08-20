@@ -28,6 +28,11 @@ Modular Linux post-exploitation enumeration framework built from scratch — not
 
 **Stack:** Bash, GTFOBins.
 
+### [nmap-vuln-scanner](https://github.com/aop24/nmap-vuln-scanner)
+Nmap automation tool: port discovery + version detection, then vulnerability matching across three layers — a hand-curated CVE database with exploitability context, live queries to the official NVD API by CPE (with local caching and rate-limiting), and optional Exploit-DB lookups via searchsploit. Includes a banner-only decoy lab for testing detections end-to-end without installing real vulnerable software.
+
+**Stack:** Python (stdlib only), nmap, NVD API.
+
 ---
 
 ## 💻 Development / own tools
@@ -54,7 +59,7 @@ LAN-based point-of-sale (POS) system for a restaurant: real-time order, table, a
 
 ## 🧰 General stack
 
-`C` `Python` `Kotlin` `Bash` `OpenSSL` `wolfSSL` `Frida` `Volatility 3` `FastAPI` `React` `Docker` `Burp Suite` `Metasploit`
+`C` `Python` `Kotlin` `Bash` `OpenSSL` `wolfSSL` `Frida` `Volatility 3` `FastAPI` `React` `Docker` `Burp Suite` `Metasploit` `Nmap`
 
 ## 📫 Contact
 
